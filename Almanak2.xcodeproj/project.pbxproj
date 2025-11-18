@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790CA52D2ECC523200089291 /* SwiftReader in Frameworks */ = {isa = PBXBuildFile; productRef = 790CA52C2ECC523200089291 /* SwiftReader */; };
+		790CA5392ECC529A00089291 /* SwiftProjectKit in Frameworks */ = {isa = PBXBuildFile; productRef = 790CA5382ECC529A00089291 /* SwiftProjectKit */; };
+		790CA53C2ECC52BB00089291 /* SwiftEditorMD in Frameworks */ = {isa = PBXBuildFile; productRef = 790CA53B2ECC52BB00089291 /* SwiftEditorMD */; };
+		790CA53F2ECC52CE00089291 /* SwiftOCR in Frameworks */ = {isa = PBXBuildFile; productRef = 790CA53E2ECC52CE00089291 /* SwiftOCR */; };
+		790CA5422ECC52DF00089291 /* SwiftLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 790CA5412ECC52DF00089291 /* SwiftLLM */; };
+		790CA5452ECC52F600089291 /* SwiftImagePrep in Frameworks */ = {isa = PBXBuildFile; productRef = 790CA5442ECC52F600089291 /* SwiftImagePrep */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790CA4D42ECC51D500089291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790CA4BD2ECC51D400089291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790CA4C42ECC51D400089291;
+			remoteInfo = Almanak2;
+		};
+		790CA4DE2ECC51D500089291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790CA4BD2ECC51D400089291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790CA4C42ECC51D400089291;
+			remoteInfo = Almanak2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790CA4C52ECC51D400089291 /* Almanak2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Almanak2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CA4D32ECC51D500089291 /* Almanak2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Almanak2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CA4DD2ECC51D500089291 /* Almanak2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Almanak2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		790CA4C72ECC51D400089291 /* Almanak2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Almanak2;
+			sourceTree = "<group>";
+		};
+		790CA4D62ECC51D500089291 /* Almanak2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Almanak2Tests;
+			sourceTree = "<group>";
+		};
+		790CA4E02ECC51D500089291 /* Almanak2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Almanak2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790CA4C22ECC51D400089291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790CA52D2ECC523200089291 /* SwiftReader in Frameworks */,
+				790CA5422ECC52DF00089291 /* SwiftLLM in Frameworks */,
+				790CA53F2ECC52CE00089291 /* SwiftOCR in Frameworks */,
+				790CA5452ECC52F600089291 /* SwiftImagePrep in Frameworks */,
+				790CA5392ECC529A00089291 /* SwiftProjectKit in Frameworks */,
+				790CA53C2ECC52BB00089291 /* SwiftEditorMD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CA4D02ECC51D500089291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CA4DA2ECC51D500089291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790CA4BC2ECC51D400089291 = {
+			isa = PBXGroup;
+			children = (
+				790CA4C72ECC51D400089291 /* Almanak2 */,
+				790CA4D62ECC51D500089291 /* Almanak2Tests */,
+				790CA4E02ECC51D500089291 /* Almanak2UITests */,
+				790CA4C62ECC51D400089291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790CA4C62ECC51D400089291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790CA4C52ECC51D400089291 /* Almanak2.app */,
+				790CA4D32ECC51D500089291 /* Almanak2Tests.xctest */,
+				790CA4DD2ECC51D500089291 /* Almanak2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790CA4C42ECC51D400089291 /* Almanak2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CA4E72ECC51D500089291 /* Build configuration list for PBXNativeTarget "Almanak2" */;
+			buildPhases = (
+				790CA4C12ECC51D400089291 /* Sources */,
+				790CA4C22ECC51D400089291 /* Frameworks */,
+				790CA4C32ECC51D400089291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				790CA4C72ECC51D400089291 /* Almanak2 */,
+			);
+			name = Almanak2;
+			packageProductDependencies = (
+				790CA52C2ECC523200089291 /* SwiftReader */,
+				790CA5382ECC529A00089291 /* SwiftProjectKit */,
+				790CA53B2ECC52BB00089291 /* SwiftEditorMD */,
+				790CA53E2ECC52CE00089291 /* SwiftOCR */,
+				790CA5412ECC52DF00089291 /* SwiftLLM */,
+				790CA5442ECC52F600089291 /* SwiftImagePrep */,
+			);
+			productName = Almanak2;
+			productReference = 790CA4C52ECC51D400089291 /* Almanak2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790CA4D22ECC51D500089291 /* Almanak2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CA4EA2ECC51D500089291 /* Build configuration list for PBXNativeTarget "Almanak2Tests" */;
+			buildPhases = (
+				790CA4CF2ECC51D500089291 /* Sources */,
+				790CA4D02ECC51D500089291 /* Frameworks */,
+				790CA4D12ECC51D500089291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790CA4D52ECC51D500089291 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				790CA4D62ECC51D500089291 /* Almanak2Tests */,
+			);
+			name = Almanak2Tests;
+			packageProductDependencies = (
+			);
+			productName = Almanak2Tests;
+			productReference = 790CA4D32ECC51D500089291 /* Almanak2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		790CA4DC2ECC51D500089291 /* Almanak2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790CA4ED2ECC51D500089291 /* Build configuration list for PBXNativeTarget "Almanak2UITests" */;
+			buildPhases = (
+				790CA4D92ECC51D500089291 /* Sources */,
+				790CA4DA2ECC51D500089291 /* Frameworks */,
+				790CA4DB2ECC51D500089291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790CA4DF2ECC51D500089291 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				790CA4E02ECC51D500089291 /* Almanak2UITests */,
+			);
+			name = Almanak2UITests;
+			packageProductDependencies = (
+			);
+			productName = Almanak2UITests;
+			productReference = 790CA4DD2ECC51D500089291 /* Almanak2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790CA4BD2ECC51D400089291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					790CA4C42ECC51D400089291 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					790CA4D22ECC51D500089291 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 790CA4C42ECC51D400089291;
+					};
+					790CA4DC2ECC51D500089291 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 790CA4C42ECC51D400089291;
+					};
+				};
+			};
+			buildConfigurationList = 790CA4C02ECC51D400089291 /* Build configuration list for PBXProject "Almanak2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790CA4BC2ECC51D400089291;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				790CA52B2ECC523100089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftReader" */,
+				790CA5372ECC529A00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftProjectKit" */,
+				790CA53A2ECC52BB00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftEditorMD" */,
+				790CA53D2ECC52CE00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftOCR" */,
+				790CA5402ECC52DF00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftLLM" */,
+				790CA5432ECC52F600089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftImagePrep" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 790CA4C62ECC51D400089291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790CA4C42ECC51D400089291 /* Almanak2 */,
+				790CA4D22ECC51D500089291 /* Almanak2Tests */,
+				790CA4DC2ECC51D500089291 /* Almanak2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790CA4C32ECC51D400089291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CA4D12ECC51D500089291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CA4DB2ECC51D500089291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790CA4C12ECC51D400089291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CA4CF2ECC51D500089291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790CA4D92ECC51D500089291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790CA4D52ECC51D500089291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790CA4C42ECC51D400089291 /* Almanak2 */;
+			targetProxy = 790CA4D42ECC51D500089291 /* PBXContainerItemProxy */;
+		};
+		790CA4DF2ECC51D500089291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790CA4C42ECC51D400089291 /* Almanak2 */;
+			targetProxy = 790CA4DE2ECC51D500089291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		790CA4E52ECC51D500089291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790CA4E62ECC51D500089291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		790CA4E82ECC51D500089291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Almanak2/Almanak2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Almanak2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		790CA4E92ECC51D500089291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Almanak2/Almanak2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Almanak2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		790CA4EB2ECC51D500089291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Almanak2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almanak2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Almanak2";
+			};
+			name = Debug;
+		};
+		790CA4EC2ECC51D500089291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Almanak2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almanak2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Almanak2";
+			};
+			name = Release;
+		};
+		790CA4EE2ECC51D500089291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Almanak2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Almanak2;
+			};
+			name = Debug;
+		};
+		790CA4EF2ECC51D500089291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YMXXNRWRXL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Almanak2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Almanak2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790CA4C02ECC51D400089291 /* Build configuration list for PBXProject "Almanak2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CA4E52ECC51D500089291 /* Debug */,
+				790CA4E62ECC51D500089291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CA4E72ECC51D500089291 /* Build configuration list for PBXNativeTarget "Almanak2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CA4E82ECC51D500089291 /* Debug */,
+				790CA4E92ECC51D500089291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CA4EA2ECC51D500089291 /* Build configuration list for PBXNativeTarget "Almanak2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CA4EB2ECC51D500089291 /* Debug */,
+				790CA4EC2ECC51D500089291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790CA4ED2ECC51D500089291 /* Build configuration list for PBXNativeTarget "Almanak2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790CA4EE2ECC51D500089291 /* Debug */,
+				790CA4EF2ECC51D500089291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		790CA52B2ECC523100089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftReader" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../PACKAGES/SwiftReader;
+		};
+		790CA5372ECC529A00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftProjectKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../PACKAGES/SwiftProjectKit;
+		};
+		790CA53A2ECC52BB00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftEditorMD" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../PACKAGES/SwiftEditorMD;
+		};
+		790CA53D2ECC52CE00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftOCR" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../PACKAGES/SwiftOCR;
+		};
+		790CA5402ECC52DF00089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftLLM" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../PACKAGES/SwiftLLM;
+		};
+		790CA5432ECC52F600089291 /* XCLocalSwiftPackageReference "../../PACKAGES/SwiftImagePrep" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../PACKAGES/SwiftImagePrep;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		790CA52C2ECC523200089291 /* SwiftReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftReader;
+		};
+		790CA5382ECC529A00089291 /* SwiftProjectKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftProjectKit;
+		};
+		790CA53B2ECC52BB00089291 /* SwiftEditorMD */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftEditorMD;
+		};
+		790CA53E2ECC52CE00089291 /* SwiftOCR */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftOCR;
+		};
+		790CA5412ECC52DF00089291 /* SwiftLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftLLM;
+		};
+		790CA5442ECC52F600089291 /* SwiftImagePrep */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftImagePrep;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 790CA4BD2ECC51D400089291 /* Project object */;
+}
